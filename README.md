@@ -1,24 +1,7 @@
-/-----Project Folder Structure -------/
-packet_analyzer
-│
-├── include/              → Header files
-│
-├── src/                  → Source code
-│   ├── main_working.cpp
-│   ├── pcap_reader.cpp
-│   ├── packet_parser.cpp
-│   ├── sni_extractor.cpp
-│   └── types.cpp
-│
-├── test_dpi.pcap         → Sample packet capture
-└── generate_test_pcap.py → Script to generate test traffic
+
 
 /----------Requirements---------/
-Check with:
 
-g++ --version
-
-If installed correctly you will see something like:
 
 g++ (GCC) 15.x.x
 
